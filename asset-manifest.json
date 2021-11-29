@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lottery-react/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/lottery-react/static/js/main.bce7c214.chunk.js",
+    "main.js.map": "/lottery-react/static/js/main.bce7c214.chunk.js.map",
+    "runtime-main.js": "/lottery-react/static/js/runtime-main.0d476b2f.js",
+    "runtime-main.js.map": "/lottery-react/static/js/runtime-main.0d476b2f.js.map",
+    "static/js/2.732ab8c9.chunk.js": "/lottery-react/static/js/2.732ab8c9.chunk.js",
+    "static/js/2.732ab8c9.chunk.js.map": "/lottery-react/static/js/2.732ab8c9.chunk.js.map",
+    "static/js/3.8539d282.chunk.js": "/lottery-react/static/js/3.8539d282.chunk.js",
+    "static/js/3.8539d282.chunk.js.map": "/lottery-react/static/js/3.8539d282.chunk.js.map",
+    "index.html": "/lottery-react/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/lottery-react/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.732ab8c9.chunk.js.LICENSE.txt": "/lottery-react/static/js/2.732ab8c9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/lottery-react/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d476b2f.js",
+    "static/js/2.732ab8c9.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.bce7c214.chunk.js"
+  ]
+}
