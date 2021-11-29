@@ -6,20 +6,28 @@ import lottery from './lottery';
 
 class App extends React.Component {
   state = {
-    manager: ''
+    manager: '',
+    players: [],
+    balance: ''
   };
 
   async componentDidMount() {
     const manager = await lottery.methods.manager().call();
+    const players = await lottery.methods.getPlayers().call();
+    const balance = await web3.eth.getBalance(lottery.options.address);
 
-    this.setState({ manager });
+    this.setState({ manager, players });
   }
 
   render() {
     return (
       <div>
         <h2>this is our lottery contract</h2>
-        <p>This contract is managed by {this.state.manager}</p>
+        <p>
+          This contract is managed by {this.state.manager}.
+          There are currently {this.state.players.length} players 
+          competing to win {web3.utils.fromWei(this.state.balance, 'ether')} ether!
+        </p>
       </div>
     );
   }
